@@ -3,9 +3,87 @@
 <html>
   <head>
     <title> ORGANIZATIONS</title>
+    <style>
+      /* Style the tab buttons */
+      .tablink {
+          background-color: #555;
+          color: white;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 10px;
+          font-size: 19px;
+          width: 20%;
+      }
+
+      /* Change background color of buttons on hover */
+      .tablink:hover {
+          background-color: #777;
+      }
+
+      /* Set default styles for tab content */
+      .tabcontent {
+          color: white;
+          display: none;
+          padding: 50px;
+          text-align: center;
+      }
+
+      button {
+        font-family: timelessfont;
+        margin:0;
+      }
+
+      @font-face {
+        font-family: timelessfont;
+        src: url(timeless.ttf);
+      }
+      h1 {
+        font-size: 70px;
+        text-align: center;
+        font-family: headingfont;
+      }
+
+      h3 {
+        font-size: 24px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      .organs {
+        text-align: center;
+        font-size: 18px;
+      }
+      body {
+        font-family: timelessfont;
+        background-color: #f8f8f8;
+      }
+
+      @font-face {
+        font-family: timelessfont;
+        src: url(timeless.ttf);
+      }
+
+      @font-face {
+        font-family: headingfont;
+        src: url(indira_k.ttf);
+      }
+
+    </style>
   </head>
   <body>
-    <h1> ORGANIZATIONS </h1>
+
+    <button class="tablink" onclick="location.href = 'home.html'" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
+    <button class="tablink" onclick="location.href = 'products.html'">Products</button>
+    <button class="tablink" onclick="location.href = 'organ.html'">Organizations</button>
+    <button class="tablink" onclick="location.href = 'Stories_page.html'">Stories</button>
+
+    <h1><br> Organizations</h1>
     <h3> Service organizations can provide crucial help to those with disabilities
       and their families. Search here to find organizations for information,
       help and volunteer and donation opportunities.
@@ -16,7 +94,7 @@
         <p>
           <a href = "https://cerebralpalsygroup.com/">Cerebal Palsy Group</a>
         </p>
-        <img src = "cerebra.jpg">
+        <img src = "cerebra.jpg" ALIGN = "left">
         <p>
           The Cerebral Palsy Group provides resources on Cerebral Palsy
           (nerve disorders that impede body movement and muscle coordination).
