@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Tabs</title>
+    <style>
+    /* Style the tab buttons */
+    .tablink {
+        background-color: #555;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 10px;
+        font-size: 19px;
+        width: 20%;
+    }
+
+    /* Change background color of buttons on hover */
+    .tablink:hover {
+        background-color: #777;
+    }
+
+    /* Set default styles for tab content */
+    .tabcontent {
+        color: white;
+        display: none;
+        padding: 50px;
+        text-align: center;
+    }
+
+    button {
+      font-family: timelessfont;
+      margin:0;
+    }
+
+    @font-face {
+      font-family: timelessfont;
+      src: url(timeless.ttf);
+    }
+    </style>
+  </head>
+  <body>
+
+    <button class="tablink" onclick="location.href = 'home.html'" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
+    <button class="tablink" onclick="location.href = 'products.html'">Products</button>
+    <button class="tablink" onclick="location.href = 'organ.html'">Organizations</button>
+    <button class="tablink" onclick="location.href = 'Stories_page.html'">Stories</button>
+
+
+  </body>
+</html>
