@@ -1,0 +1,16 @@
+.align {
+  text-align: center;
+}
+
+h1 {
+    font-family: myFirstFont;
+  }
+    @font-face {
+      font-family: myFirstFont;
+      src: url(BebasNeue-Regular.ttf);
+    }
+
+
+body {
+  background-color: #FFFFFF;
+}
