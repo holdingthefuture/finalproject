@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <link rel = "icon" href = "logo.png">
+  <link rel = "icon" href = "actuallogo.png">
   <title>Holding the Future</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -146,10 +146,13 @@
     }
     .align {
       text-align: center;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 20px;
     }
 
     body {
-      background-color: #E2ECD8;
+      background-color: #F8F8F8;
     }
 
     .maintext {font-family: timelessfont; margin:0}
@@ -157,7 +160,7 @@
       font-family: timelessfont;
       src: url(timeless.ttf);
     }
-    #titletext {font-family: indirafont; margin:0; font-size: 30px;}
+    #titletext {font-family: indirafont; margin:0; font-size: 35px; text-align: center;}
     @font-face {
       font-family: indirafont;
       src: url(indira_k.ttf);
@@ -178,7 +181,7 @@
 <br>
 <br>
 
-  <div id="titletext"><div class = "align"><h1>Holding the Future</h1></div></div>
+  <div id="titletext"><h1>Holding the Future</h1></div>
 
   <!-- Slideshow Content -->
   <div class="container">
@@ -196,41 +199,28 @@
     <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&h=350" width="1000" height="700">
   </div>
 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-  <div class="centered"><img src="logo.png" width="600" height="400"></div>
+
+  <div class="centered"><img src="actuallogo.png" width="600" height="400"></div>
   </div>
   </div>
   <br>
 
   <!-- Slideshow Buttons / Arrows -->
   <script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
+  var slideIndex = 0;
+  carousel();
 
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
   }
   </script>
 
@@ -241,11 +231,9 @@
     limited mobility.</p>
     <p>The aim of our website is to expand the world of accessibility
     and to educate the public about individuals with disabilities.
-    We hope to highlight </p>
-    <p>several products and organizations that have changed
+    We hope to highlight several products and organizations that have changed
       the world of the disabled and serve as a directory for those products and
-      organizations. We also hope to inspire individuals</p>
-      <p> with stories of people
+      organizations. We also hope to inspire individuals with stories of people
       from around the world who have overcome their supposed limitations to bring
       a voice to those who are not often heard.</p></div>
 </div>
