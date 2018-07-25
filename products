@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+  <html>
+      <head>
+        <link rel="stylesheet" href="products.css">
+        <script src="products.js"></script>
+        <title>products</title>
+        <style>
+          body {background-color:silver;}
+        h1  {text-align:center; font-size:64px;}
+        h2  {text-align:center;}
+        div {border-bottom-style:solid;}
+        img.one{ height:30%; width:30%; text-align:center; float:left;}
+
+        </style>
+      </head>
+      
+      <body>
+
+          <h1>Products</h1>
+
+
+        <p>
+          Many individuals with disabilities employ various tools and products in order to help them in everyday life. Here is a selection of these products as well as brief descriptions.
+        </p>
+
+        <div>
+        <h2>Product Name</h2>
+        <img class="one" src="http://www.webstaurantstore.com/images/products/main/36801/33247/regency-flatware-dessert-spoon-12-pack.jpg">
+        Description sldkh fshdfjkasdhf lakjshdlak jdhflkajsdhfk asjhdflksdjf hlakjdsfhaks djfhalksjhdfaskj dhfals kjdfhal ksjf dhksajdhfk jsdhlkjhds faklshdflkj hdfksjdhkdj fhlasd kjfh akjsdhfaj sdakjsdf jalkdjfhaskjdfh adfkljahsd fasdkljfhafjfkfdh kdjfhaslkdjfh afkasdh fsdkjf hasjdfh adksfah sksadj hfkdjh ajsdh kjkdfjfh kdjdfh kjh kjdfd haskdjha kdsakjdfhf akddjfjh ahdsfas kjdsh akdsjdjfhas lkjlf hakskjdjhf dhfkfk askjdhf djhf sdkahfkjsdfhsdkalj jhfsdkjdhf adkjsjhf askjsfd hakdsjdjfjhjsa khakdsj hfaksjdjh  akjsdh fakjhdf ahf asjkjh fkja hsfdkjajh aj kajfds asjdfh ajhdaijhsfd iwdhfiwuerieryiuwyeriuc iwe  iweurqiu eyriiwje iehrhieur w qieuwrrqeiuu iweuu ieueuieu iue ique iu iueur q qiue rrieuu qiweur iui iu iuer iw eiqwhdqifijhqiu yeweu uiuey ieu yrieuyriuyurq eew f sfs sdf pawduf odopa sd jjh dhu diquier equruy ekjffhfd dkjf dfksja hja hkdkh afei qehr q9 y r89y q8euayus ifhqi ru iury quyuewuyriuqeyr ewqwiuryiquwe rqye eqeiuryieyrqwe rueuqyr hgeww uyreq eiury uyer qwuey iueqyw rqweur qeyqeiweyroqiwueyiruoq ewqwey roqiwuery weq ewq weuiqwyr qewi qweur iquew rueqywrwu eiuqweyr qweiur qiwier eiuwqy ruweru ewrer qeuuyerqiuieiurey rqiuery qeury qiueuy rquwue ru weriue ruew rweiuqr quer qiu er ewu rqeur qe yyquwy ruewiuqr uew rqouwueyuqiw eiuqiwe rquwe rqueu rqey reyreouq riuqwyeoeuiyr qewyoqwiury qweui rweqoiy rqoiuewr yqweuyroiuqyw uruqew rquweyr qur eu rque roqyiue rquy ruqu rq yrqouieyqiuyeryuyqwey reu ur eroewqiu rqieuwy ruie rqiu ere qo eirqiuqy ewruue ry sdaj hsdjghf asdfg afjkhasg jasg fasdf ajgsdhfadf dsjh adsgf ajsdgf akjdgh fjadgfas jdfasjkdghfsdhgf jasdgf jshdg jh dgdfg jhgdjsdhgfajhgfjagajsh adkfjasa hlfhald skljksad hlkajsdfh aslkdjfha lsdkjh asdklj fhasldkkh kdjls fhaldksjf haldskfj s
+      </div>
+
+        <div>
+        <h2>Product Name</h2>
+        <img class="one" src="http://www.webstaurantstore.com/images/products/main/36801/33247/regency-flatware-dessert-spoon-12-pack.jpg">
+        Description sldkh fshdfjkasdhf lakjshdlak jdhflkajsdhfk asjhdflksdjf hlakjdsfhaks djfhalksjhdfaskj dhfals kjdfhal ksjf dhksajdhfk jsdhlkjhds faklshdflkj hdfksjdhkdj fhlasd kjfh akjsdhfaj sdakjsdf jalkdjfhaskjdfh adfkljahsd fasdkljfhafjfkfdh kdjfhaslkdjfh afkasdh fsdkjf hasjdfh adksfah sksadj hfkdjh ajsdh kjkdfjfh kdjdfh kjh kjdfd haskdjha kdsakjdfhf akddjfjh ahdsfas kjdsh akdsjdjfhas lkjlf hakskjdjhf dhfkfk askjdhf djhf sdkahfkjsdfhsdkalj jhfsdkjdhf adkjsjhf askjsfd hakdsjdjfjhjsa khakdsj hfaksjdjh  akjsdh fakjhdf ahf asjkjh fkja hsfdkjajh aj kajfds asjdfh ajhdaijhsfd iwdhfiwuerieryiuwyeriuc iwe  iweurqiu eyriiwje iehrhieur w qieuwrrqeiuu iweuu ieueuieu iue ique iu iueur q qiue rrieuu qiweur iui iu iuer iw eiqwhdqifijhqiu yeweu uiuey ieu yrieuyriuyurq eew f sfs sdf pawduf odopa sd jjh dhu diquier equruy ekjffhfd dkjf dfksja hja hkdkh afei qehr q9 y r89y q8euayus ifhqi ru iury quyuewuyriuqeyr ewqwiuryiquwe rqye eqeiuryieyrqwe rueuqyr hgeww uyreq eiury uyer qwuey iueqyw rqweur qeyqeiweyroqiwueyiruoq ewqwey roqiwuery weq ewq weuiqwyr qewi qweur iquew rueqywrwu eiuqweyr qweiur qiwier eiuwqy ruweru ewrer qeuuyerqiuieiurey rqiuery qeury qiueuy rquwue ru weriue ruew rweiuqr quer qiu er ewu rqeur qe yyquwy ruewiuqr uew rqouwueyuqiw eiuqiwe rquwe rqueu rqey reyreouq riuqwyeoeuiyr qewyoqwiury qweui rweqoiy rqoiuewr yqweuyroiuqyw uruqew rquweyr qur eu rque roqyiue rquy ruqu rq yrqouieyqiuyeryuyqwey reu ur eroewqiu rqieuwy ruie rqiu ere qo eirqiuqy ewruue ry sdaj hsdjghf asdfg afjkhasg jasg fasdf ajgsdhfadf dsjh adsgf ajsdgf akjdgh fjadgfas jdfasjkdghfsdhgf jasdgf jshdg jh dgdfg jhgdjsdhgfajhgfjaghjfgagajd sldja fhalkjdfh adhsdj hdskj halkdhasldkjf hlksdffh dfkjda hklaf adslkjfh sdfkja fsdhljdfj hasdl
+      </div>
+  <div>
+      <h2>Product Name</h2>
+      <img class="one" src="http://www.webstaurantstore.com/images/products/main/36801/33247/regency-flatware-dessert-spoon-12-pack.jpg">
+      Description sldkh fshdfjkasdhf lakjshdlak jdhflkajsdhfk asjhdflksdjf hlakjdsfhaks djfhalksjhdfaskj dhfals kjdfhal ksjf dhksajdhfk jsdhlkjhds faklshdflkj hdfksjdhkdj fhlasd kjfh akjsdhfaj sdakjsdf jalkdjfhaskjdfh adfkljahsd fasdkljfhafjfkfdh kdjfhaslkdjfh afkasdh fsdkjf hasjdfh adksfah sksadj hfkdjh ajsdh kjkdfjfh kdjdfh kjh kjdfd haskdjha kdsakjdfhf akddjfjh ahdsfas kjdsh akdsjdjfhas lkjlf hakskjdjhf dhfkfk askjdhf djhf sdkahfkjsdfhsdkalj jhfsdkjdhf adkjsjhf askjsfd hakdsjdjfjhjsa khakdsj hfaksjdjh  akjsdh fakjhdf ahf asjkjh fkja hsfdkjajh aj kajfds asjdfh ajhdaijhsfd iwdhfiwuerieryiuwyeriuc iwe  iweurqiu eyriiwje iehrhieur w qieuwrrqeiuu iweuu ieueuieu iue ique iu iueur q qiue rrieuu qiweur iui iu iuer iw eiqwhdqifijhqiu yeweu uiuey ieu yrieuyriuyurq eew f sfs sdf pawduf odopa sd jjh dhu diquier equruy ekjffhfd dkjf dfksja hja hkdkh afei qehr q9 y r89y q8euayus ifhqi ru iury quyuewuyriuqeyr ewqwiuryiquwe rqye eqeiuryieyrqwe rueuqyr hgeww uyreq eiury uyer qwuey iueqyw rqweur qeyqeiweyroqiwueyiruoq ewqwey roqiwuery weq ewq weuiqwyr qewi qweur iquew rueqywrwu eiuqweyr qweiur qiwier eiuwqy ruweru ewrer qeuuyerqiuieiurey rqiuery qeury qiueuy rquwue ru weriue ruew rweiuqr quer qiu er ewu rqeur qe yyquwy ruewiuqr uew rqouwueyuqiw eiuqiwe rquwe rqueu rqey reyreouq riuqwyeoeuiyr qewyoqwiury qweui rweqoiy rqoiuewr yqweuyroiuqyw uruqew rquweyr qur eu rque roqyiue rquy ruqu rq yrqouieyqiuyeryuyqwey reu ur eroewqiu rqieuwy ruie rqiu ere qo eirqiuqy ewruue ry sdaj hsdjghf asdfg afjkhasg jasg fasdf ajgsdhfadf dsjh adsgf ajsdgf akjdgh fjadgfas jdfasjkdghfsdhgf jasdgf jshdg jh dgdfg jhgdjsdhgfajhgfjaghjfgagajd sldja fhalkjdfh adhsdj hdskj halkdhasldkjf hlksdffh dfkjda hklaf adslkjfh sdfkja fsdhljdfj hasdl
+    </div>
+    <div>
+      <h2>Product Name</h2>
+      <img class="one" src="http://www.webstaurantstore.com/images/products/main/36801/33247/regency-flatware-dessert-spoon-12-pack.jpg">
+      Description sldkh fshdfjkasdhf lakjshdlak jdhflkajsdhfk asjhdflksdjf hlakjdsfhaks djfhalksjhdfaskj dhfals kjdfhal ksjf dhksajdhfk jsdhlkjhds faklshdflkj hdfksjdhkdj fhlasd kjfh akjsdhfaj sdakjsdf jalkdjfhaskjdfh adfkljahsd fasdkljfhafjfkfdh kdjfhaslkdjfh afkasdh fsdkjf hasjdfh adksfah sksadj hfkdjh ajsdh kjkdfjfh kdjdfh kjh kjdfd haskdjha kdsakjdfhf akddjfjh ahdsfas kjdsh akdsjdjfhas lkjlf hakskjdjhf dhfkfk askjdhf djhf sdkahfkjsdfhsdkalj jhfsdkjdhf adkjsjhf askjsfd hakdsjdjfjhjsa khakdsj hfaksjdjh  akjsdh fakjhdf ahf asjkjh fkja hsfdkjajh aj kajfds asjdfh ajhdaijhsfd iwdhfiwuerieryiuwyeriuc iwe  iweurqiu eyriiwje iehrhieur w qieuwrrqeiuu iweuu ieueuieu iue ique iu iueur q qiue rrieuu qiweur iui iu iuer iw eiqwhdqifijhqiu yeweu uiuey ieu yrieuyriuyurq eew f sfs sdf pawduf odopa sd jjh dhu diquier equruy ekjffhfd dkjf dfksja hja hkdkh afei qehr q9 y r89y q8euayus ifhqi ru iury quyuewuyriuqeyr ewqwiuryiquwe rqye eqeiuryieyrqwe rueuqyr hgeww uyreq eiury uyer qwuey iueqyw rqweur qeyqeiweyroqiwueyiruoq ewqwey roqiwuery weq ewq weuiqwyr qewi qweur iquew rueqywrwu eiuqweyr qweiur qiwier eiuwqy ruweru ewrer qeuuyerqiuieiurey rqiuery qeury qiueuy rquwue ru weriue ruew rweiuqr quer qiu er ewu rqeur qe yyquwy ruewiuqr uew rqouwueyuqiw eiuqiwe rquwe rqueu rqey reyreouq riuqwyeoeuiyr qewyoqwiury qweui rweqoiy rqoiuewr yqweuyroiuqyw uruqew rquweyr qur eu rque roqyiue rquy ruqu rq yrqouieyqiuyeryuyqwey reu ur eroewqiu rqieuwy ruie rqiu ere qo eirqiuqy ewruue ry sdaj hsdjghf asdfg afjkhasg jasg fasdf ajgsdhfadf dsjh adsgf ajsdgf akjdgh fjadgfas jdfasjkdghfsdhgf jasdgf jshdg jh dgdfg jhgdjsdhgfajhgfjaghjfgagajd sldja fhalkjdfh adhsdj hdskj halkdhasldkjf hlksdffh dfkjda hklaf adslkjfh sdfkja fsdhljdfj hasdl
+
+    </div>
+    </div>
+
+      <body>
+
+  </html>
