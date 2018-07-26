@@ -6,14 +6,14 @@
         <title>Products</title>
         <style>
 
-        body {background-color:#f8F8F8;}
-        h1  {text-align:center; font-size:50px; }
-        h2  {text-align:center; font-size:30px; color:#2d5e00}
+        body {background-color:#f8F8F8; font-size:23px;}
+        h1  {text-align:center; font-size:70px; }
+        h2  {text-align:center; font-size:50px; color:#2d5e00}
 
         .text {padding-left:10px;}
-        .stuff {font-size:24px; text-align:center;}
+        .stuff {font-size:30px; text-align:center;}
         .title {font-weight: bold;}
-        img.one{height:150px; width:150px; text-align:center; float:left; border-color:; margin-right: 25px; margin-left: 25px;}
+        img.one{height:250px; width:250px; text-align:center; float:left; border-color:; margin-right: 25px; margin-left: 25px;}
 
         #title_font{font-family:textfont}
         @font-face{font-family:textfont; src: url(Timeless.ttf);}
@@ -26,47 +26,46 @@
 
       <body>
         <style>
+  /* Style the tab buttons */
+  .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 10px;
+      font-size: 19px;
+      width: 20%;
+  }
+  /* Change background color of buttons on hover */
+  link:hover {
+      background-color: #777;
+  }
+  /* Set default styles for tab content */
+  .tabcontent {
+      color: white;
+      display: none;
+      padding: 50px;
+      text-align: center;
+  }
+  button {
+    font-family: timelessfont;
+    margin:0;
+  }
+  @font-face {
+    font-family: timelessfont;
+    src: url(timeless.ttf);
+  }
+  </style>
+</head>
+<body>
 
-        /* Style the tab buttons */
-        .tablink {
-            background-color: #555;
-            color: white;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 10px;
-            font-size: 19px;
-            width: 20%;
-        }
-        /* Change background color of buttons on hover */
-        .tablink:hover {
-            background-color: #777;
-        }
-        /* Set default styles for tab content */
-        .tabcontent {
-            color: white;
-            display: none;
-            padding: 50px;
-            text-align: center;
-        }
-        button {
-          font-family: timelessfont;
-          margin:0;
-        }
-        @font-face {
-          font-family: timelessfont;
-          src: url(timeless.ttf);
-        }
-        </style>
-      </head>
-      <body id="title_font">
-
-        <button class="tablink" onclick="location.href = 'home.html'" id="defaultOpen">Home</button>
-        <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
-        <button class="tablink" onclick="location.href = 'products.html'">Products</button>
-        <button class="tablink" onclick="location.href = 'organ.html'">Organizations</button>
-        <button class="tablink" onclick="location.href = 'Stories_page.html'">Stories</button>
+  <button class="tablink" onclick="home.html" id="defaultOpen">Home</button>
+  <button class="tablink" onclick="products.html">Products</button>
+  <button class="tablink" onclick="organ.html">Organizations</button>
+  <button class="tablink" onclick="Stories_page.html">Stories</button>
+  <button class="tablink" onclick="about.html">About Us</button>
 
 
 
@@ -104,6 +103,7 @@
       <p class="title">Gyro Spoon</p>Gyroscope spoons help stabilize eating utensils for people unsteady control over their hands, including those suffering from Parkinsons Disease. With the Gyro Spoon, the task of eating can be less difficult and or messy.
       <br></br>
       <a href="https://store.liftware.com/products/liftware-starter-kit?variant=34761630471&gclid=Cj0KCQjwv-DaBRCcARIsAI9sba84IN4MGsv5eGHKL5-FK6hzqc0k4_EIFqr75HQR1epCL8AvphArqmYaAv6LEALw_wcB">Gyro Spoon Link</a>
+      <br></br>
       <br></br>
 
       <br></br>
@@ -153,6 +153,7 @@
   <p class="title">Hands Free Mouse</p>Without using hands, the Hands Free Mouse allows the user to control a mouse with movement of their head. This allows people without the conventional tools for using the internet to access technology.
   <br></br>
   <a href="https://www.rehabmart.com/product/air-mouse-45205.html?gclid=Cj0KCQjwv-DaBRCcARIsAI9sba-tLKbf3xIv0VcyB4ZQiKamD2ncpU4oh34PeNwWvFlcBmI6mse8DsYaAmv3EALw_wcB">Hands Free Mouse Link</a>
+  <br></br>
   <br></br>
 
   <br></br>
