@@ -1,316 +1,234 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href= "organ.css">
 <html>
-  <head>
-    <link rel = "icon" href = "https://holdingthefuture.github.io/finalproject/logocropped.png">
-    <title>Organizations - Holding the Future</title>
-    <style>
-      #body_text {font-family: timelessfont;}
-      @font-face {
-        font-family: timelessfont;
-        src: url(Timeless.ttf);
-      } 
-      #subtitle_text {font-family: headingfont;}
-      @font-face {
-        font-family: headingfont;
-        src: url(Indira_K.ttf);
-      }
-      /*
-      #logo_text {font-family: titlefont;}
-      @font-face {
-        font-family:titlefont;
-        src: url(Candlelight.ttf);*/
+<head>
+  <title>Organizations - Holding the Future</title>
+  <style>
+    /* Style the tab buttons */
+    .tablink {
+        background-color: #555;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 10px;
+        font-size: 19px;
+        width: 20%;
+    }
 
-      /* Style the tab buttons */
-      .tablink {
-          background-color: #555;
-          color: white;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 10px;
-          font-size: 19px;
-          width: 20%;
-      }
+    /* Change background color of buttons on hover */
+    .tablink:hover {
+        background-color: #777;
+    }
 
-      /* Change background color of buttons on hover */
-      .tablink:hover {
-          background-color: #777;
-      }
-
-      /* Set default styles for tab content */
-      .tabcontent {
-          color: white;
-          display: none;
-          padding: 50px;
-          text-align: center;
-      }
-
-      button {
-        font-family: timelessfont;
-        margin:0;
-      }
-      h1 {
-        font-size: 70px;
+    /* Set default styles for tab content */
+    .tabcontent {
+        color: white;
+        display: none;
+        padding: 50px;
         text-align: center;
-        font-family: headingfont;
-        color: black;
-      }
+    }
 
-      h3 {
-        font-size: 26px;
-        text-align: center;
-        /*font-family: timelessfont;*/
-      }
+    button {
+      font-family: timelessfont;
+      margin:0;
+    }
 
-      h2 {
-        font-size: 26px;
-      }
+    @font-face {
+      font-family: timelessfont;
+      src: url(timeless.ttf);
+    }
+    h1 {
+      font-size: 70px;
+      text-align: center;
+      font-family: headingfont;
+      color: black;
+    }
 
-      .organs {
-        text-align: center;
-        font-size: 23px;
-        color: black;
-        border: 3;
-      }
-      body {
-        font-family: timelessfont;
-        background-color: #f8f8f8;
-        color: #2d5e00;
-        margin: 35px;
-        margin-top: 35px;
-        font-size: 23px;
-      }
-      img {
-        border: 3;
-        border-color: black;
-      }
+    h3 {
+      font-size: 26px;
+      text-align: center;
+    }
 
-    </style>
-  </head>
-  <body>
+    h2 {
+      font-size: 26px;
+    }
 
-    <button class="tablink" onclick="location.href = 'home.html'" id="defaultOpen">Home</button>
-    <button class="tablink" onclick="location.href = 'products.html'">Products</button>
-    <button class="tablink" onclick="location.href = 'organ.html'">Organizations</button>
-    <button class="tablink" onclick="location.href = 'Stories_page.html'">Stories</button>
-    <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
+    .organs {
+      text-align: center;
+      font-size: 23px;
+      color: black;
+      border: 3;
+    }
+    body {
+      font-family: timelessfont;
+      background-color: #f8f8f8;
+      color: #2d5e00;
+      margin: 35px;
+      margin-top: 35px;
+      font-size: 23px;
+    }
 
-    <h1 id="subtitle_font"><br> Organizations</h1>
-    <img src="https://holdingthefuture.github.io/finalproject/logocropped.png" width = "10%" height = "10%" style="display: block; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0;">
-    <h3> Service organizations can provide crucial help to those with disabilities
-      and their families. Search here to find organizations for information,
-      help and volunteer and donation opportunities.
-    </h3>
-    <br>
+    @font-face {
+      font-family: timelessfont;
+      src: url(timeless.ttf);
+    }
+
+    @font-face {
+      font-family: headingfont;
+      src: url(indira_k.ttf);
+    }
+
+    img {
+      border: 3;
+      border-color: black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <button class="tablink" onclick="location.href = 'home.html'" id="defaultOpen">Home</button>
+  <button class="tablink" onclick="location.href = 'products.html'">Products</button>
+  <button class="tablink" onclick="location.href = 'organ.html'">Organizations</button>
+  <button class="tablink" onclick="location.href = 'Stories_page.html'">Stories</button>
+  <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
+
+  <h1><br> Organizations</h1>
+  <img src= "https://holdingthefuture.github.io/finalproject/i%20want%20luncHCROPPED.png" width = "10%" height = "10%" style="display: block; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0;">
+  <h3> Service organizations can provide crucial help to those with disabilities
+    and their families. Search here to find organizations for information,
+    help and volunteer and donation opportunities.
+  </h3>
+  <br>
 
 <button onclick="fruitsSort()">Sort</button>
 
+<div id="def1"><p>Autistic Self Advocacy Network (ASAN)</p>
+  <img src = "asan.jpg" ALIGN = "left">
+  <p>ASAN is an organization that promotes direct participation by the
+  autistic, encouraging them to speak out about their stories and join
+  together for awareness projects. They provide resources for learning
+  about autism and life with it.</p>
+</div>
+<br>
+<div id="def2"><p>PAPCP (India)</p>
+  <img src = "papcp.png" ALIGN = "left">
+  <p>Parents Association of Persons with Cerebral Palsy and Associated
+  Disorders (PAPCP), based in Bangalore, India, provides a work and
+  activity center for adults with mental and physical disabilities.
+  They welcome volunteers and employees.</p>
+</div>
+<br>
+<div id="def3"><p>Autistic Women & Nonbinary Network (AWN)</p>
+  <img src = "awn.jpg" ALIGN = "left">
+  <p>AWN is a non-profit that supports autistic women, girls, nonbinary
+  people, and others. They promote awareness and the dispulsion of
+  rumors around autism.</p>
+</div>
+<br>
+<div id="def4"><p>Special Olympics</p>
+  <img src = "so.png" ALIGN = "left">
+  <p>The Special Olympics is an organization that empowers the individuals
+  who want to pursue their love of sports and athletics but have a
+  physical or mental disability that serves as a “barrier”. The
+  organization helps these individuals get past this barrier and
+  engage in sports in contests all over the world.</p>
+</div>
+<br>
+<div id="def5"><p>Disability Worktools</p>
+  <img src = "diswork.png" ALIGN = "left">
+  <p>A website where specific tools for specific physical needs are organized and available.</p>
+</div>
+<br>
+<div id="def6"><p>American Association of People with Disabilities (AAPD)</p>
+  <img src = "aapd.jpg" ALIGN = "left">
+  <p>The American Association of People with Disabilities is a cumulative
+  organization that targets all areas of the disability community,
+  working to increase the political and economic power of this
+  overshadowed community.</p>
+</div>
+<br>
+<div id="def7"><p>Easterseals</p>
+  <img src = "easter.png" ALIGN = "left">
+  <p>Easterseals is an organization whose goals are to help special needs
+  people with high quality services ranging from accessibility
+  resources to camping and recreation. With a team of therapists,
+  teachers, and more, they help special needs people overcome obstacles
+  and reach their games.</p>
+</div>
+<br>
+<div id="def8"><p>Friendship Circle</p>
+  <img src = "friend.png" ALIGN = "left">
+  <p>Friendship Circle, a culturally Jewish organization,  provides a
+  summer camp for children and teens with special needs. It offers
+  volunteer and donation opportunities, and has branches in other
+  states.</p>
+</div>
+<br>
+<div id="def9"><p>National Center on Disability and Journalism (NCDJ)</p>
+  <img src = "ncdj.jpg" ALIGN = "left">
+  <p>NCDJ is an organization to provide support and guidance for
+  journalists as they cover people with disabilities. Its goal is to
+  cover disability issues without any particular point of view as the
+  coverage on disabilities often has been inaccurate or incomplete.</p>
+</div>
+<br>
+<div id="def10"><p>The National Autistic Society(UK)</p>
+  <img src = "nas.png" ALIGN = "left">
+  <p>This society promotes autism awareness in the UK, with resources and
+  services for the autistic and their families.</p>
+</div>
+<br>
+<div id="def11"><p>Cerebal Palsy Group</p>
+  <img src = "cerebra.png" ALIGN = "left">
+  <p>The Cerebral Palsy Group provides resources on Cerebral Palsy
+  (nerve disorders that impede body movement and muscle coordination).
+  It provides legal and family support for anyone affected.</p>
+</div>
+<br>
 
-    <br>
-      <div class = "organs">
-        <div id="def1">
-        <p>
-          <a href = "http://autisticadvocacy.org/">Autistic Self Advocacy Network (ASAN)</a>
-        </p>
-        <img src = "asan.jpg" ALIGN = "left">
-        <p>
-        ASAN is an organization that promotes direct participation by the
-        autistic, encouraging them to speak out about their stories and join
-        together for awareness projects. They provide resources for learning
-        about autism and life with it.
-        </p>
-      </div>
+<!--<p id="demo"></p>-->
 
-    <br>
-      <div class = "organs">
-        <div id="def2">
-        <p>
-          <a href = "http://www.papcp.org/">PAPCP (India)</a>
-        </p>
-        <img src = "papcp.png" ALIGN = "left">
-        <p>
-          Parents Association of Persons with Cerebral Palsy and Associated
-          Disorders (PAPCP), based in Bangalore, India, provides a work and
-          activity center for adults with mental and physical disabilities.
-          They welcome volunteers and employees.
-        </p>
-      </div>
+<script>
 
-    <br>
-      <div class = "organs">
-        <div id="def3">
-        <p>
-          <a href = "https://awnnetwork.org/">Autistic Women & Nonbinary Network (AWN)</a>
-        </p>
-        <img src = "awn.jpg" ALIGN = "left">
-        <p>
-          AWN is a non-profit that supports autistic women, girls, nonbinary
-          people, and others. They promote awareness and the dispulsion of
-          rumors around autism.
-        </p>
-      </div>
-    <br>
-
-
-    <br>
-      <div class = "organs">
-        <div id="def4">
-        <p>
-          <a href = "https://www.specialolympics.org/">Special Olympics</a>
-        </p>
-        <img src = "so.png" ALIGN = "left">
-        <p>
-          The Special Olympics is an organization that empowers the individuals
-          who want to pursue their love of sports and athletics but have a
-          physical or mental disability that serves as a “barrier”. The
-          organization helps these individuals get past this barrier and
-          engage in sports in contests all over the world.
-        </p>
-      </div>
-
-    <br>
-      <div class = "organs">
-        <div id="def5">
-        <p>
-          <a href = "https://www.disabilityworktools.com/">Disability Worktools</a>
-        </p>
-        <img src = "diswork.png" ALIGN = "left">
-        <p>
-          A website where specific tools for specific physical needs are organized and available.
-        </p>
-      </div>
-
-    <br>
-      <div class = "organs">
-        <div id="def6">
-        <p>
-          <a href = "https://www.aapd.com/">American Association of People with Disabilities (AAPD)</a>
-        </p>
-        <img src = "aapd.jpg" ALIGN = "left">
-        <p>
-          The American Association of People with Disabilities is a cumulative
-          organization that targets all areas of the disability community,
-          working to increase the political and economic power of this
-          overshadowed community.
-        </p>
-      </div>
-
-    <br>
-      <div class = "organs">
-        <div id="def7">
-        <p>
-          <a href = "http://www.easterseals.com/">Easterseals</a>
-        </p>
-        <img src = "easter.png" ALIGN = "left">
-        <p>
-          Easterseals is an organization whose goals are to help special needs
-          people with high quality services ranging from accessibility
-          resources to camping and recreation. With a team of therapists,
-          teachers, and more, they help special needs people overcome obstacles
-          and reach their games.
-        </p>
-      </div>
-
-    <br>
-      <div class = "organs">
-        <div id="def8">
-        <p>
-          <a href = "https://www.friendshipcircle.org/">Friendship Circle</a>
-        </p>
-        <img src = "friend.png" ALIGN = "left">
-        <p>
-          Friendship Circle, a culturally Jewish organization,  provides a
-          summer camp for children and teens with special needs. It offers
-          volunteer and donation opportunities, and has branches in other
-          states.
-        </p>
-      </div>
-
-    <br>
-      <div class = "organs">
-        <div id="def9">
-        <p>
-          <a href = "http://ncdj.org/">National Center on Disability and Journalism (NCDJ)</a>
-        </p>
-        <img src = "ncdj.jpg" ALIGN = "left">
-        <p>
-          NCDJ is an organization to provide support and guidance for
-          journalists as they cover people with disabilities. Its goal is to
-          cover disability issues without any particular point of view as the
-          coverage on disabilities often has been inaccurate or incomplete.
-        </p>
-      </div>
+var fruit1 = document.getElementById("def1").innerHTML;
+var fruit2 = document.getElementById("def2").innerHTML;
+var fruit3 = document.getElementById("def3").innerHTML;
+var fruit4 = document.getElementById("def4").innerHTML;
+var fruit5 = document.getElementById("def5").innerHTML;
+var fruit6 = document.getElementById("def6").innerHTML;
+var fruit7 = document.getElementById("def7").innerHTML;
+var fruit8 = document.getElementById("def8").innerHTML;
+var fruit9 = document.getElementById("def9").innerHTML;
+var fruit10 = document.getElementById("def10").innerHTML;
+var fruit11 = document.getElementById("def11").innerHTML;
 
 
-    <br>
-      <div class = "organs">
-        <div id="def10">
-        <p>
-          <a href = "https://www.autism.org.uk/">The National Autistic Society(UK)</a>
-        </p>
-        <img src = "nas.png" ALIGN = "left">
-        <p>
-          This society promotes autism awareness in the UK, with resources and
-          services for the autistic and their families.
-        </p>
-      </div>
+var fruits = [fruit1, fruit2, fruit3, fruit4, fruit5, fruit6, fruit7, fruit8, fruit9, fruit10, fruit11];
 
-    <br>
-      <div class = "organs">
-        <div id="def11">
-        <p>
-          <a href = "https://cerebralpalsygroup.com/">Cerebal Palsy Group</a>
-        </p>
-        <img src = "cerebra.png" ALIGN = "left">
-        <p>
-          The Cerebral Palsy Group provides resources on Cerebral Palsy
-          (nerve disorders that impede body movement and muscle coordination).
-          It provides legal and family support for anyone affected.
-        </p>
-      </div>
-    </div>
-        <p id="demo"></p>
-      <script>
+//document.getElementById("demo").innerHTML = fruits;
 
-      var fruit1 = document.getElementById("def1").innerHTML;
-      var fruit2 = document.getElementById("def2").innerHTML;
-      var fruit3 = document.getElementById("def3").innerHTML;
-      var fruit4 = document.getElementById("def4").innerHTML;
-      var fruit5 = document.getElementById("def5").innerHTML;
-      var fruit6 = document.getElementById("def6").innerHTML;
-      var fruit7 = document.getElementById("def7").innerHTML;
-      var fruit8 = document.getElementById("def8").innerHTML;
-      var fruit8 = document.getElementById("def9").innerHTML;
-      var fruit8 = document.getElementById("def10").innerHTML;
-      var fruit8 = document.getElementById("def11").innerHTML;
+function fruitsSort() {
+    fruits.sort();
+    //document.getElementById("demo").innerHTML = fruits;
+    document.getElementById("def1").innerHTML = fruits[0]
+    document.getElementById("def2").innerHTML = fruits[1]
+    document.getElementById("def3").innerHTML = fruits[2]
+    document.getElementById("def4").innerHTML = fruits[3]
+    document.getElementById("def5").innerHTML = fruits[4]
+    document.getElementById("def6").innerHTML = fruits[5]
+    document.getElementById("def7").innerHTML = fruits[6]
+    document.getElementById("def8").innerHTML = fruits[7]
+    document.getElementById("def9").innerHTML = fruits[8]
+    document.getElementById("def10").innerHTML = fruits[9]
+    document.getElementById("def11").innerHTML = fruits[10]
 
 
-      var fruits = [fruit1, fruit2, fruit3, fruit4, fruit5, fruit6, fruit7, fruit8, fruit9, fruit10, fruit11];
+//banana = def1 -- orange = def2 -- apple = def3 -- mango = def4
 
-      document.getElementById("demo").innerHTML = fruits;
+}
+</script>
 
-      function fruitsSort() {
-          fruits.sort();
-          document.getElementById("demo").innerHTML = fruits;
-          document.getElementById("def1").innerHTML = fruits[0]
-          document.getElementById("def2").innerHTML = fruits[1]
-          document.getElementById("def3").innerHTML = fruits[2]
-          document.getElementById("def4").innerHTML = fruits[3]
-          document.getElementById("def5").innerHTML = fruits[4]
-          document.getElementById("def6").innerHTML = fruits[5]
-          document.getElementById("def7").innerHTML = fruits[6]
-          document.getElementById("def8").innerHTML = fruits[7]
-          document.getElementById("def8").innerHTML = fruits[8]
-          document.getElementById("def8").innerHTML = fruits[9]
-          document.getElementById("def8").innerHTML = fruits[10]
-          document.getElementById("def8").innerHTML = fruits[11]
-
-      //banana = def1 -- orange = def2 -- apple = def3 -- mango = def4
-
-      }
-      </script>
-
-  </body>
+</body>
 </html>
