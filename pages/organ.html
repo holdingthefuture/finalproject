@@ -2,7 +2,6 @@
 <link rel="stylesheet" href= "organ.css">
 <html>
   <head>
-    <link rel = "icon" href="https://holdingthefuture.github.io/finalproject/logocropped.png">
     <title>Organizations - Holding the Future</title>
     <style>
       /* Style the tab buttons */
@@ -97,15 +96,18 @@
     <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
 
     <h1><br> Organizations</h1>
-    <img src= "https://holdingthefuture.github.io/finalproject/logocropped.png"  width = "10%" height = "10%" style="display: block; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0;">
+    <img src= "https://holdingthefuture.github.io/finalproject/i%20want%20luncHCROPPED.png"  width = "10%" height = "10%" style="display: block; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0;">
     <h3> Service organizations can provide crucial help to those with disabilities
       and their families. Search here to find organizations for information,
       help and volunteer and donation opportunities.
     </h3>
     <br>
 
+<button onclick="fruitsSort()">Sort</button>
+
     <br>
       <div class = "organs">
+        <div id="def1">
         <p>
           <a href = "https://www.aapd.com/">American Association of People with Disabilities (AAPD)</a>
         </p>
@@ -120,6 +122,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def2">
         <p>
           <a href = "http://autisticadvocacy.org/">Autistic Self Advocacy Network (ASAN)</a>
         </p>
@@ -134,6 +137,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def3">
         <p>
           <a href = "https://awnnetwork.org/">Autistic Women & Nonbinary Network (AWN)</a>
         </p>
@@ -148,6 +152,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def4">
         <p>
           <a href = "https://cerebralpalsygroup.com/">Cerebal Palsy Group</a>
         </p>
@@ -158,9 +163,11 @@
           It provides legal and family support for anyone affected.
         </p>
       </div>
+    </div>
 
     <br>
       <div class = "organs">
+        <div id="def5">
         <p>
           <a href = "https://www.disabilityworktools.com/">Disability Worktools</a>
         </p>
@@ -172,6 +179,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def6">
         <p>
           <a href = "http://www.easterseals.com/">Easterseals</a>
         </p>
@@ -187,6 +195,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def7">
         <p>
           <a href = "https://www.friendshipcircle.org/">Friendship Circle</a>
         </p>
@@ -201,6 +210,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def8">
         <p>
           <a href = "http://ncdj.org/">National Center on Disability and Journalism (NCDJ)</a>
         </p>
@@ -215,6 +225,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def9">
         <p>
           <a href = "http://www.papcp.org/">PAPCP (India)</a>
         </p>
@@ -228,9 +239,8 @@
       </div>
     <br>
     <br>
-    <br>
-    <br>
       <div class = "organs">
+        <div id="def10">
         <p>
           <a href = "https://www.specialolympics.org/">Special Olympics</a>
         </p>
@@ -246,6 +256,7 @@
 
     <br>
       <div class = "organs">
+        <div id="def11">
         <p>
           <a href = "https://www.autism.org.uk/">The National Autistic Society(UK)</a>
         </p>
@@ -255,6 +266,46 @@
           services for the autistic and their families.
         </p>
       </div>
+
+      <script>
+
+      var fruit1 = document.getElementById("def1").innerHTML;
+      var fruit2 = document.getElementById("def2").innerHTML;
+      var fruit3 = document.getElementById("def3").innerHTML;
+      var fruit4 = document.getElementById("def4").innerHTML;
+      var fruit5 = document.getElementById("def5").innerHTML;
+      var fruit6 = document.getElementById("def6").innerHTML;
+      var fruit7 = document.getElementById("def7").innerHTML;
+      var fruit8 = document.getElementById("def8").innerHTML;
+      var fruit8 = document.getElementById("def9").innerHTML;
+      var fruit8 = document.getElementById("def10").innerHTML;
+      var fruit8 = document.getElementById("def11").innerHTML;
+
+
+      var fruits = [fruit1, fruit2, fruit3, fruit4, fruit5, fruit6, fruit7, fruit8, fruit9, fruit10, fruit11];
+
+      //document.getElementById("demo").innerHTML = fruits;
+
+      function fruitsSort() {
+          fruits.sort();
+          //document.getElementById("demo").innerHTML = fruits;
+          document.getElementById("def1").innerHTML = fruits[0]
+          document.getElementById("def2").innerHTML = fruits[1]
+          document.getElementById("def3").innerHTML = fruits[2]
+          document.getElementById("def4").innerHTML = fruits[3]
+          document.getElementById("def5").innerHTML = fruits[4]
+          document.getElementById("def6").innerHTML = fruits[5]
+          document.getElementById("def7").innerHTML = fruits[6]
+          document.getElementById("def8").innerHTML = fruits[7]
+          document.getElementById("def8").innerHTML = fruits[8]
+          document.getElementById("def8").innerHTML = fruits[9]
+          document.getElementById("def8").innerHTML = fruits[10]
+          document.getElementById("def8").innerHTML = fruits[11]
+
+      //banana = def1 -- orange = def2 -- apple = def3 -- mango = def4
+
+      }
+      </script>
 
   </body>
 </html>
