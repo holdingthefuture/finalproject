@@ -8,8 +8,8 @@
         <style>
 
         body {background-color:#f8F8F8; font-size:23px;}
-        h1  {text-align:center; font-size:70px; }
-        h2  {text-align:center; font-size:50px; color:#2d5e00}
+        h1  {text-align:center; font-size:70px; font-family: subheaderfont}
+        h2  {text-align:center; font-size:50px; color:#2d5e00; font-family: textfont}
 
         .text {padding-left:10px;}
         .stuff {font-size:30px; text-align:center;}
@@ -21,7 +21,6 @@
 
         #title_font2{font-family:subheaderfont}
         @font-face{font-family:subheaderfont; src: url(Indira_K.ttf);}
-
         </style>
       </head>
 
@@ -51,13 +50,10 @@
         text-align: center;
     }
     button {
-      font-family: timelessfont;
+      font-family: textfont;
       margin:0;
     }
-    @font-face {
-      font-family: timelessfont;
-      src: url(timeless.ttf);
-    }
+
   </style>
 </head>
 <body>
@@ -73,7 +69,7 @@
         <br></br>
           <h1 id="title_font2">Products</h1>
 
-        <p class= "stuff">
+        <p class= "stuff" id="title_font">
           Many individuals with disabilities employ various tools and products in order to help them in everyday life. Here is a selection of these products as well as brief descriptions.
           <br></br>
         </p>
