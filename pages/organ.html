@@ -60,23 +60,21 @@
       color: black;
       border: 3;
     }
-    body {
-      font-family: timelessfont;
-      background-color: #f8f8f8;
-      color: #2d5e00;
-      margin: 35px;
-      margin-top: 35px;
-      font-size: 23px;
-    }
-
+    
+    #maintext {font-family: timelessfont; margin:0; font-size: 27px;}    
     @font-face {
       font-family: timelessfont;
-      src: url(timeless.ttf);
+      src: url(Timeless.ttf);
     }
-
+    #titletext {font-family: indirafont; margin:0; font-size: 35px; text-align: center;}
     @font-face {
-      font-family: headingfont;
-      src: url(indira_k.ttf);
+      font-family: indirafont;
+      src: url(Indira_K.ttf);
+    }
+    #logotext {font-family: candlefont; margin:0; font-size: 35px; text-align: center;}
+    @font-face {
+      font-family: candlefont;
+      src: url(Candlelight.ttf);
     }
 
     img {
@@ -94,7 +92,7 @@
   <button class="tablink" onclick="location.href = 'Stories_page.html'">Stories</button>
   <button class="tablink" onclick="location.href = 'about.html'">About Us</button>
 
-  <h1><br> Organizations</h1>
+  <h1 id="titletext">Organizations</h1>
   <img src= "https://holdingthefuture.github.io/finalproject/i%20want%20luncHCROPPED.png" width = "10%" height = "10%" style="display: block; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0;">
   <h3> Service organizations can provide crucial help to those with disabilities
     and their families. Search here to find organizations for information,
